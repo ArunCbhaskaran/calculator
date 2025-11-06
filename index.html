@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="java2.css">
+   
+</head>
+<body>
+    <h1 id="input"></h1>
+    <h1 id="output"></h1>
+    <section>
+    <div class="back">
+        <div>
+             <button class="cal1" onclick="AC()">AC</button>
+             <button class="cal1" onclick="Back()">Back</button>
+             <button class="cal1" onclick="display('/')">/</button>
+             <button class="cal1" onclick="percentage()">%</button>
+       </div>
+       <div>
+             <button class="cal1" onclick="display('7')">7</button>
+             <button class="cal1" onclick="display('8')">8</button>
+             <button class="cal1" onclick="display('9')">9</button>
+             <button class="cal1" onclick="display('x')">x</button>
+       </div>
+       <div>
+            <button class="cal1" onclick="display('4')">4</button>
+            <button class="cal1" onclick="display('5')">5</button>
+            <button class="cal1" onclick="display('6')">6</button>
+            <button class="cal1" onclick="display('-')">-</button>
+      </div>
+       <div>
+            <button class="cal1" onclick="display('1')">1</button>
+            <button class="cal1" onclick="display('2')">2</button>
+            <button class="cal1" onclick="display('3')">3</button>
+            <button class="cal1" onclick="display('+')">+</button>
+      </div>
+       <div>
+            <button class="cal1" onclick="display('0')">0</button>
+            <button class="cal1" onclick="display('.')">.</button>
+            <button class="cal1" onclick="calculate()">=</button>
+    </div>
+    </div>
+    </section>
+   <script src="calculator.js"></script>
+</body>
+</html>
